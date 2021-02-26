@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width:  100%;
+    /* background-color: black; */
+}
+.logo{
+    /* background-color: blue; */
+    width: 250px;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo .b{
+    padding-right: 15px;
+}
+.logo .fa-youtube-play{
+    color: rgb(255, 0, 0);
+}
+.logo .fa-youtube-play span{
+    color: black;
+    padding-left: 1px;
+    font-weight: 600;
+}
+.logo .y sup{
+    font-size: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    padding-left: 2px;
+} 
+.search{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.search input[type=text]{
+    margin-left: 50px;
+    width: 500px;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 5px 0px 5px 10px;
+    border-radius: 2px;
+    box-shadow: 2px 0px 1px rgb(212, 212, 212);
+}
+.search button{
+    width: 50px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(244, 247, 244);
+    margin-left: -5px
+}
+.fa-search{
+    color: rgb(163, 161, 161);
+}
+.fa-microphone{
+  padding-left: 15px;
+  padding-top: 6px;
+  color: rgb(114, 113, 113);
+}
+.notify{
+    width: 250px;
+    margin-left: 100px;
+}
+.fa-video-camera,.fa-th,.fa-bell{
+    color: rgb(114, 113, 113);
+    padding-top: 5px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.circle{
+    width: 40px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 100px;
+    margin-right: 100px;
+}
+/* .circle span{
+    color: white;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+} */
